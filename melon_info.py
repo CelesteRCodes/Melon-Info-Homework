@@ -12,7 +12,7 @@ def print_melon(name, seedless, price, rind, flesh, weight):
         have_or_have_not = 'do not have'
 
     print(f'{name}s {have_or_have_not} seeds and are ${price:.2f}')
-    print(f'{name}s have these qualities: {rind, flesh, weight}')
+    print(f'{name}s have these qualities: rind color: {rind}, flesh color: {flesh}, average weight: {weight}')
 
 for i in melon_names:
     print_melon(melon_names[i], melon_seedlessness[i], melon_prices[i], melon_flesh_color[i], melon_rind_color[i], melon_avg_weight[i])
@@ -42,7 +42,27 @@ for i in melon_names:
 #        have_or_have_not = 'do not have'
 
 #    print(f'{name}s {have_or_have_not} seeds and are ${price:.2f}')
-#    print(f'{name}s have these qualities: {rind, flesh, weight}')              # trying to figure out how to have the name/keyword 
-                                                                                # of each quality before the value
+#    print(f'{name}s have these qualities: rind color: {rind}, flesh color: {flesh}, average weight: {weight}')    
 # for i in melon_names:
 #    print_melon(melon_names[i], melon_seedlessness[i], melon_prices[i], melon_flesh_color[i], melon_rind_color[i], melon_avg_weight[i])
+
+
+
+# solution:
+
+#from melons import melons
+
+
+# def print_all_melons(melons):
+#    """Print each melon with corresponding attribute information."""
+
+#    for melon_name, attributes in melons.items():
+#        print(melon_name.upper())
+
+#        for attribute, value in attributes.items():
+#            print(f'{attribute}: {value}')
+
+#        print('===================================')
+
+
+# print_all_melons(melons)
