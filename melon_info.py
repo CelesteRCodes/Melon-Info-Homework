@@ -30,7 +30,7 @@ for i in melon_names:
 
 
 
-# this code runs but shows the extra qualities in a list without titles for each quality
+# this code runs but shows the extra qualities in a list below the first about seeds and price
 
 # from melons import melon_names, melon_seedlessness, melon_prices, melon_avg_weight, melon_flesh_color, melon_rind_color
 
