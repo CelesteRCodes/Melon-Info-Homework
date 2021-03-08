@@ -76,4 +76,3 @@ melon_avg_weight = {
 # }
 
 # tried to use *additional but it's showing invalid syntax
-# have to add or append the dictionary with these additions
